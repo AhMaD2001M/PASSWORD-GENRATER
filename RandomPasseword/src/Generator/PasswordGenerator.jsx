@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const PasswordGenerator = () => {
   // State hooks to manage password properties
-  const [password, setPassword] = useState('451513513513'); // State to hold the generated password
+  const [password, setPassword] = useState('45151351313'); // State to hold the generated password
   const [length, setLength] = useState(12); // State to hold the password length
   const [includeUppercase, setIncludeUppercase] = useState(true); // State to toggle uppercase letters
   const [includeLowercase, setIncludeLowercase] = useState(true); // State to toggle lowercase letters
